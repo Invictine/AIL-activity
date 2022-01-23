@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/Images/Logos/logo.png">
+    <link rel="stylesheet" href ="styles.css">
+    <link rel="stylesheet" href="jquery/jquery.flipster.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=MedievalSharp&display=swap" rel="stylesheet">
+    <title>Invictine Retail</title>
+</head>
+<body>
+<div class="header">
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="/Images/Logos/logo.png" alt="Logo lol" width ="50px">
+        </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+    </div>
+</div>
+</div>
+<div class="preheading">
+  <h1>
+    Invictine Retail, your one stop solution for Fantasy Goods. You'll find everything you want here.
+  </h1>
+</div>
+<div class="heading">
+  <div class="headingtext">
+    <h1>Our Featured Lineup for 2022</h1>
+  </div>
+
+ <div class="gallery">  
+<div class="slider">
+    <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <div class="slide first">
+            <img src="/Images/Featured/00-1920x1080-996a74e70a1362097679ad45052179c8.webp" alt="">
+          </div>
+          <div class="slide">
+            <img src="/Images/Featured/FantasyPotionsBottles_Screenshot_01-1920x1080-14e0371042a6ced93570b02f1c39c681.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="/Images/Featured/HighresScreenshot00004-1920x1080-d586c6d662d056d000f15f371ff90b7c.webp" alt="">
+          </div>
+          <div class="slide">
+            <img src="/Images/Featured/MedievalBows_featured-894x488-ca136cc8087998548afba5f5e4f46e0c.png" alt="">
+          </div>
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          </div>
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+        </div>
+
+
+      <script type="text/javascript">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 5000);
+      </script>
+
+</div> 
+</div>
+</body>
+</html>
