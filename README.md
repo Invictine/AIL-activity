@@ -1,6 +1,6 @@
 # Invictine Retail
 
-A school storefront prototype for a fictional fantasy catalog, with separate product, cart, and shop information pages.
+I wanted this school storefront to feel like a shop you could wander through: a fantasy catalog, separate product and cart pages, and the supporting shop information all work together as one static experience. The cart and checkout are visual demos, not real commerce. Fork the layout, swap in your own catalog, and tell me what you would build next.
 
 ## Explore the prototype
 
