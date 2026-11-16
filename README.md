@@ -13,3 +13,14 @@ python -m http.server 8000
 ```
 
 Visit [localhost:8000](http://localhost:8000). The catalog and cart are static examples. Some original carousel dependencies are absent from this snapshot.
+## Page structure
+
+```mermaid
+flowchart LR
+  Home[index.html] --> Products[products.html]
+  Home --> Cart[cart.html]
+  Home --> About[about.html]
+  Products --> Assets[Local catalog images and styles]
+```
+
+This is a static classroom storefront prototype. The catalog, cart, and checkout states are examples; the repository does not provide a production commerce backend.
