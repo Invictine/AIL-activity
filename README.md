@@ -1,6 +1,6 @@
 # Invictine Retail
 
-I wanted this school storefront to feel like a shop you could wander through: a fantasy catalog, separate product and cart pages, and the supporting shop information all work together as one static experience. The cart and checkout are visual demos, not real commerce. Fork the layout, swap in your own catalog, and tell me what you would build next. Review the setup instructions and architecture below, or fork the repository to adapt the implementation to your requirements.
+I wanted this school storefront to feel like a shop you could wander through: a fantasy catalog, separate product and cart pages, and the supporting shop information all work together as one static experience. The cart and checkout are visual demos, not real commerce. Fork the layout, swap in your own catalog, and tell me what you would build next.
 
 [![Invictine Retail](media/overview.png)](media/walkthrough.mp4)
 *Click preview above to watch recorded interface demo.*
